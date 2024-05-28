@@ -21,8 +21,8 @@ public class pincode {
 
     @Test
     public void pincode() throws InterruptedException, IOException {
-        WebDriverManager.edgedriver().setup();
-        driver = new EdgeDriver();
+       WebDriverManager.firefoxdriver().setup();
+        driver = new FirefoxDriver();
         driver.manage().window().maximize();
 
         FileInputStream excelFile = new FileInputStream(".//src//main//java//Resources//poincode.xlsx");
