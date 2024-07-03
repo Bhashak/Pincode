@@ -5,17 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87cd0ea5-d581-4b9f-a773-baa581867b8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Enums/Browser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Enums/Credentials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pom_Pages/Loginpage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test/DQG_Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Base_Package/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base_Package/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Resources/Book1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Resources/Book3.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Resources/Log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Resources/Missing.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Resources/extent.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Resources/poincode.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/PincodeSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/pincode.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +42,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/DQG/DQG_WEB/src/main/java/Resources&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Github Projects/DQG",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\DQG\DQG_WEB\src\main\java\Resources" />
@@ -60,58 +64,6 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.C:/DQG/DQG_WEB/Testng.xml">
-    <configuration name="Nividia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Nividia" />
-      <module name="DQG_WEB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PincodeSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.PincodeSearch" />
-      <module name="DQG_WEB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PincodeSearch1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.PincodeSearch1" />
-      <module name="DQG_WEB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pincode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.pincode" />
-      <module name="DQG_WEB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="C:/DQG/DQG_WEB/Testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DQG_WEB" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Testng.xml" />
@@ -122,13 +74,82 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DQG_Response (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DQG_WEB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.DQG_Response" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DQG_Response (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DQG_WEB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.DQG_Response" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DQG_Response (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DQG_WEB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.DQG_Response" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DQG_Response.loginAndConnectionList" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DQG_WEB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.DQG_Response" />
+      <option name="METHOD_NAME" value="loginAndConnectionList" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/DQG/DQG_WEB/Testng.xml" />
-        <item itemvalue="Application.pincode" />
-        <item itemvalue="Application.Nividia" />
-        <item itemvalue="Application.PincodeSearch" />
-        <item itemvalue="Application.PincodeSearch1" />
+        <item itemvalue="TestNG.DQG_Response.loginAndConnectionList" />
+        <item itemvalue="TestNG.DQG_Response (3)" />
+        <item itemvalue="TestNG.DQG_Response (2)" />
+        <item itemvalue="TestNG.DQG_Response (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -142,5 +163,21 @@
       <updated>1716351200087</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Test/pincode.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Test/pincode.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
