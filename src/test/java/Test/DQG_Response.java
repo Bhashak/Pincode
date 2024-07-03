@@ -65,9 +65,9 @@ public class DQG_Response {
                 "Login status: " + loginStatus + "<br>" +
                 "Connections List Status: " + connectionListStatus);
 
-        //email.addCc("lakshminarayana.g@kairostech.com");
+        email.addCc("lakshminarayana.g@kairostech.com");
         email.addCc("bhasha.k@kairostech.com");
-       // email.addTo("ravikumar.p@kairostech.com");
+        email.addTo("ravikumar.p@kairostech.com");
 
         email.send();
         System.out.println("email sent");
