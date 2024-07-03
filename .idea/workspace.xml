@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87cd0ea5-d581-4b9f-a773-baa581867b8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test/DQG_Response.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Base_Package/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base_Package/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Resources/Book1.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Resources/Book3.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Resources/Log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Resources/Missing.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Resources/extent.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Resources/poincode.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test/PincodeSearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test/pincode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/pincode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/pincode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,21 +151,5 @@
       <updated>1716351200087</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Test/pincode.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Test/pincode.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
