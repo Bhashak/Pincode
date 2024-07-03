@@ -14,7 +14,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.testng.annotations.Test;
 
-public  class pincode {
+public  class PincodeSecond {
     public static String pincode = "";
     static WebDriver driver;
     @Test
@@ -22,7 +22,7 @@ public  class pincode {
         WebDriverManager.edgedriver().setup();        driver = new EdgeDriver();
         driver.manage().window().maximize();
 
-        FileInputStream excelFile = new FileInputStream("C:\\DQG\\DQG_WEB\\src\\main\\java\\Resources\\Book7500.xlsx");
+        FileInputStream excelFile = new FileInputStream("C:\\DQG\\DQG_WEB\\src\\main\\java\\Resources\\Book8k.xlsx");
         Workbook workbook = new XSSFWorkbook(excelFile);
         Sheet sheet = workbook.getSheetAt(0);
 
@@ -87,7 +87,7 @@ public  class pincode {
             pincodeCell.setCellValue(pincode);
         }
 
-        FileOutputStream outputStream = new FileOutputStream("C:\\DQG\\DQG_WEB\\src\\main\\java\\Resources\\Book7500.xlsx");
+        FileOutputStream outputStream = new FileOutputStream("C:\\DQG\\DQG_WEB\\src\\main\\java\\Resources\\Book8k.xlsx");
         workbook.write(outputStream);
         workbook.close();
         outputStream.close();

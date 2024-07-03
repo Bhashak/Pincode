@@ -14,7 +14,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.testng.annotations.Test;
 
-public  class pincode {
+public  class PincodeFirst {
     public static String pincode = "";
     static WebDriver driver;
     @Test

@@ -65,7 +65,6 @@ public class BaseClass {
 
 
 
-
     }
     @AfterClass
     public void closeDQGTool()

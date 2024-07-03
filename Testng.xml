@@ -1,14 +1,12 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-
-<suite name="TestSuite" parallel="tests" thread-count="3">
-    <test name="Test1">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="5" parallel="classes" name="Suite">
+    <test thread-count="5" parallel="classes" name="Test">
         <classes>
-            <class name="Test.pincode"/>
+            <class name="Test.DQG_Response"/>
+<!--            <class name="Test.PincodeFirst"/>-->
+<!--            <class name="Test.PincodeSecond"/>-->
+<!--            <class name="Test.PincodeFour"/>-->
         </classes>
-    </test>
-
-
-    <!-- Add more tests as needed -->
-
-    <!-- You can also include test groups or specify test methods here -->
-</suite>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
