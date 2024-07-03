@@ -18,9 +18,15 @@ public  class pincode {
     public static String pincode = "";
     static WebDriver driver;
     @Test
+<<<<<<< HEAD
     public void Test1() throws InterruptedException, IOException {
         WebDriverManager.edgedriver().setup();
         driver = new EdgeDriver();
+=======
+    public void pincode() throws InterruptedException, IOException {
+      WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
+>>>>>>> c08e5d9f8804d532cb90b4c8a11b68e0e28400a3
         driver.manage().window().maximize();
         driver.get("https:///www.google.com");
         FileInputStream excelFile = new FileInputStream("C:\\DQG\\DQG_WEB\\src\\main\\java\\Resources\\Book1k.xlsx");
