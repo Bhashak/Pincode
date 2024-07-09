@@ -47,7 +47,7 @@ public class DQG_Response {
         System.out.println("Connections List Status = " + connectionList_status);
         System.out.println("Connections List Body = " + connectionList_responsebody);
 
-       if (login_status != 200 || connectionList_status != 200 || login_status != 401 || connectionList_status != 401) {
+         if (login_status != 200 && login_status != 401 && connectionList_status != 200 && connectionList_status != 401) {
             sendErrorEmail(login_status, connectionList_status);
         }
     }
